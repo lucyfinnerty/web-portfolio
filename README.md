@@ -1,1 +1,1 @@
-# webportfolio
+This is my website portfolio that will contain information about myself including education, projects, skills, etc. for future employment purposes. This is a continuing work in progress and subject to change.
