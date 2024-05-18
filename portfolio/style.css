@@ -1,11 +1,21 @@
-
-header {
+nav {
     height: 50px;
     width: 100%;
 }
+header {
+    padding-top: 30px;
+    padding-left: 150px;
+}
 body {
-    background-color: rgb(88, 80, 94);
+    /*background-color: rgb(88, 80, 94);*/
     font-family: 'Cascadia Code', sans-serif;
+}
+section {
+    margin: 250px;;
+    padding: 20px;
+}
+hr {
+    width: 60%;
 }
 .menu-links {
     display: inline-flex;
@@ -15,15 +25,37 @@ body {
     align-items: center;
     justify-content: space-around;
     float: right;
+    padding-right: 80px;
 }
-.main-skills, .certs, .education h3 {
+.main-skills {
+    margin-top: 150px;
+    margin-bottom: 40px;
+}
+.certs {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.education {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.projs {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+#wordimg, #pptimg, #excelimg {
+    width: 100px;
+}
+#comptiaimg {
+    width: 120px;
+    position: relative; /*declared position allows for location change*/
+    top: -12px;
+}
+.main-skills, .certs, .education /*.projs*/h3 {
     color: rgb(37, 11, 72);
     text-align: center;
 }
-.intro{
-    padding: 50px;
-}
-.intro h3{
+.intro h3 {
     color: black;
 }
 .main-skills ul {
@@ -39,7 +71,4 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-around;
-}
-.education {
-
 }
