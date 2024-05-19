@@ -134,3 +134,7 @@ hr {
 .contact-left button:hover {
     background-color: rgb(109, 79, 132);
 }
+/*------------------------------ABOUT PAGE-------------------------------------*/
+iframe {
+    margin: 200px;
+}
