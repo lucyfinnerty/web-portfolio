@@ -1,3 +1,4 @@
+/*------------------------------INDEX PAGE-------------------------------------*/
 nav {
     height: 50px;
     width: 100%;
@@ -52,7 +53,7 @@ hr {
     top: -12px;
 }
 .main-skills, .certs, .education /*.projs*/h3 {
-    color: rgb(37, 11, 72);
+    color: rgb(109, 79, 132);
     text-align: center;
 }
 .intro h3 {
@@ -65,10 +66,71 @@ hr {
     align-items: center;
     justify-content: space-around;
 }
+.skills-list, .certs-list {
+    color: black;
+}
 .certs ul {
     display: inline-flex;
     list-style: none;
     display: flex;
     align-items: center;
     justify-content: space-around;
+}
+/*------------------------------CONTACT PAGE-------------------------------------*/
+.contact-container {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.contact-left {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: start;
+    gap: 20px;
+}
+.contact-left-title hr {
+    border: none;
+    width: 120px;
+    height: 5px;
+    background-color: rgb(109, 79, 132);
+    border-radius: 10px;
+}
+.contact-left-title h1 {
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.contact-inputs {
+    width: 400px;
+    height: 50px;
+    padding-left: 25px;
+    font-weight: 500;
+    color: black;
+    border-radius: 50px;
+}
+.contact-left textarea {
+    height: 140px;
+    padding-top: 15px;
+    border-radius: 20px;
+}
+.contact-left button {
+    height: 30px;
+    width: 80px;
+    text-align: center;
+    font-size: 16px;
+    background-color: rgb(219, 194, 239);
+    gap: 10px;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.contact-left button:hover {
+    background-color: rgb(109, 79, 132);
 }
