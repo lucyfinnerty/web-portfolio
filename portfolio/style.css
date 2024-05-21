@@ -46,11 +46,25 @@ hr {
 }
 #wordimg, #pptimg, #excelimg {
     width: 100px;
+    transition: transform 0.3s ease;
 }
 #comptiaimg {
     width: 120px;
     position: relative; /*declared position allows for location change*/
     top: -12px;
+    transition: transform 0.3s ease;
+}
+#wordimg:hover {
+    transform: translateY(-10px);
+}
+#pptimg:hover {
+    transform: translateY(-10px);
+}
+#excelimg:hover {
+    transform: translateY(-10px);
+}
+#comptiaimg:hover {
+    transform: translateY(-10px);
 }
 .main-skills, .certs, .education /*.projs*/h3 {
     color: rgb(109, 79, 132);
